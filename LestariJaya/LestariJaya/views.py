@@ -2,5 +2,8 @@ from django.http import HttpResponse
 from django.shortcuts import render
 
 def index(request):
-    return render(request,'index.html')
+    context = {
+        'judulPage':['Home','Blog','About']
+    }
+    return render(request,'index.html', context)
 

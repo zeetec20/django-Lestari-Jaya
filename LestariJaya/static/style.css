@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Francois+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+    background-color: #2a363b;
+    border-bottom: ridge #e84a5f 4px;   
+}
+
+.logoWebsite{
+    float: left;
+}
+
+.logoWebsite{
+    margin-left: 20px;
+}
+
+.logoWebsite .font{
+    float: left;
+    padding-top: 10px;
+    padding-left: 21px;
+    padding-right: 21px;
+    margin: 2px;
+    margin-left: -15px;
+    background-color: rgb(153,184,152);
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.473) 0px 0px 5px 0px;
+}
+
+.logoWebsite .font1{
+    z-index: 10;
+    margin-left: 0px;
+}
+
+.logoWebsite .font2{
+    background-color: rgb(153,184,157);
+    z-index: 9;
+}
+
+.logoWebsite .font3{
+    background-color: rgb(153,184,162);
+    z-index: 8;
+}
+
+.logoWebsite .font4{
+    background-color: rgb(153,184,167);
+    z-index: 7;
+}
+
+.logoWebsite .font5{
+    background-color: rgb(153,184,172);
+    z-index: 6;
+}
+
+.logoWebsite .font6{
+    background-color: rgb(153,184,177);
+    z-index: 5;
+}
+
+.logoWebsite .font h1{
+    font-size: 40px;
+    font-family: 'Open Sans', calibri;
+    font-weight: bold;
+}
+
+.textMenu{
+    font-size: 18px;
+    color: #fecea8;
+    font-family: 'Francois One', sans-serif;
+}
+
+.menu{
+    margin-bottom: -7px;
+}
+
+.menu1{
+    
+}
+
+.menu2{
+    
+}
+
+.menu3{
+    
+}
+
+.menu4{
+    margin-right: 300px;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.menuKanan{
+    margin-bottom: -8px;
+}
+
+.menuKanan .menu{
+    display: inline-block;
+}
+
+.menuKanan .menu h1{
+    color: #e84a5f;
+    font-size: 25px;
+    font-family: 'Francois One', sans-serif;
+    border-bottom: solid white 2px; 
+}
+
+.menuKanan .menu .pembatas{
+    color: white;
+    border: none;
+}
+
+.menuKanan .menuSearch h1{
+    border: none;
+}
+
+/* BODY  BODY  BODY  BODY */
+
+.carousel{
+    margin: auto;
+    margin-top: 0px;
+    width: 100%;
+    border-bottom: ridge #e84a5f 4px;
+}
+
+.carousel img{
+    width: 100%;
+    height: 544px;
+}
+
+.carousel-indicators li{
+    background-color: #2a363b;
+    height: 10px;
+    width: 60px;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    color: #2a363b;
+}
+
+.carousel-control-prev:hover, 
+.carousel-control-next:hover, 
+.carousel-control-prev:focus, 
+.carousel-control-next:focus{
+    color: #2a363b;
+}
